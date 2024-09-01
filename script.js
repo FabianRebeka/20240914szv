@@ -1,6 +1,8 @@
 var params = new URLSearchParams(window.location.search);
 var id = params.get("id");
 
+//komment
+
 var xhr = new XMLHttpRequest();
 xhr.open("get", "https://rickandmortyapi.com/api/character/" + id);
 xhr.onreadystatechange = function(){
